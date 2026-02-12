@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | ClockedIn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Clocked<span>In</span></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <section class="about">
+    <h2>Why ClockedIn?</h2>
+    <p>
+      ClockedIn was created to solve one problem — wasted time.
+      This platform teaches practical, realistic time-management
+      methods for students and professionals who want clarity, focus,
+      and control over their day.
+    </p>
+
+    <p>
+      No fluff. No unrealistic routines. Just simple systems that work.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 ClockedIn. Built for focus.</p>
+  </footer>
+
+</body>
+</html>
