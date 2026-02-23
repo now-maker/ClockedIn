@@ -1,15 +1,116 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
+}
+
+body {
+  background: #f7f7f7;
   color: #1e1e1e;
-  padding: 40px;
 }
 
-h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
 }
 
-p {
-  font-size: 18px;
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.brand img {
+  height: 35px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 60px;
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.buttons .btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.primary {
+  background: #2dd4bf;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #2dd4bf;
+  color: #2dd4bf;
+}
+
+/* PROGRAMS */
+.programs {
+  padding: 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.popular {
+  border: 2px solid #2dd4bf;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #2dd4bf;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #777;
 }
